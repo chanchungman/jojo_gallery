@@ -27,18 +27,18 @@ const Home = () => {
 
                 ))
                 }
-                <div className="m-4 d-md-inline" >
+                <div className="m-4 d-md-inline" key="clear_filter">
                     <button onClick={() => setCharacter(Character)} className="btn btn-dark border-white">Clear Filter</button>
                 </div>
             </div>
             <br />
-            <div className='row'>
+            <div className='row' key="show_image">
                 {character.map((value, index) => (
-                    <div className='col-md-2 mb-4 ' >
+                    <div className='col-md-2 mb-4' key="image">
                         <div className="card" key={index} >
                             <img src={value.image} className="img-thumbnail " />
 
-                            <div className=" card-body">
+                            <div className=" card-body" key="text">
                                 <h5 className="card-title fw-bold  d-md-inline ">{value.title}</h5>
                                 {/* <p className="card-text mb-3">{value.description}</p> */}
                             </div>
