@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jojo_gallery/static/css/main.31d6cfe0.css",
-    "main.js": "/jojo_gallery/static/js/main.9b546461.js",
+    "main.js": "/jojo_gallery/static/js/main.83541d1c.js",
     "static/media/bgsub.jpg": "/jojo_gallery/static/media/bgsub.b7a43cf81545999954a2.jpg",
     "static/media/jojo_2.png": "/jojo_gallery/static/media/jojo_2.9bfea41c5a399242c990.png",
     "static/media/jojo_4.png": "/jojo_gallery/static/media/jojo_4.18bfc2ecb17e788045fb.png",
@@ -13,10 +13,10 @@
     "static/media/dio_1.png": "/jojo_gallery/static/media/dio_1.41a8e040788d73cf6f0d.png",
     "static/media/jojo_6.png": "/jojo_gallery/static/media/jojo_6.8ca895f2fc9996080d83.png",
     "index.html": "/jojo_gallery/index.html",
-    "main.9b546461.js.map": "/jojo_gallery/static/js/main.9b546461.js.map"
+    "main.83541d1c.js.map": "/jojo_gallery/static/js/main.83541d1c.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.9b546461.js"
+    "static/js/main.83541d1c.js"
   ]
 }
