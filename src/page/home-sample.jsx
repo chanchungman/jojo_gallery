@@ -31,6 +31,11 @@ const Home = () => {
             
     }
 
+    async function callAPI(){
+        let serach = await fetch("https://yogalight.idigitalts.com/api/class/get_all")
+        let result = await serach.json
+    }
+
  function newF(value) {
         if (!value || value == null) return;
         if ( value >=  0) return display = value;
